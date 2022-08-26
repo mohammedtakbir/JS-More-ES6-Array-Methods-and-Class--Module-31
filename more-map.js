@@ -8,7 +8,7 @@ const friends = ['Tom Hiddilson', 'Tom Holand', 'Tom Hanks', 'Tom Hardy'];
 const firstLetters = friends.map(friend => friend[0]);
 const nameLengths = friends.map(friend => friend.length);
 // console.log(nameLengths);
-// console.log(firstLetters);
+console.log(firstLetters);
 
 const products = [
     {id: 1, name: 'macbook', price: 95000},

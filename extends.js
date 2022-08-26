@@ -1,8 +1,8 @@
 
 class TeamMember{
-    name; // ? callded property or filled
+    name; // ? called property or filled
     location; 
-    constructor(name, location){
+    constructor(name, location){    
         this.name = name;
         this.location = location;
     }

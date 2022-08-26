@@ -14,6 +14,7 @@ const numbers = [4, 5, 6, 7, 8, 9, 10]
 } */
 // ? arrow function
 const doubledIt = number => number * 2; 
+
 // * map()
 const makeDouble = numbers.map(doubledIt);
 const makeDoubleDirect = numbers.map(math = num => num * 2);
